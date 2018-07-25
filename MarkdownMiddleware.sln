@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "code", "code", "{E6CC05D5-8319-4B7E-83E6-DE5A75DF291C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{199EE41E-2C30-4632-B5BE-9339479F7689}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EdlinSoftware.Owin.Markdown", "code\EdlinSoftware.Owin.Markdown\EdlinSoftware.Owin.Markdown.csproj", "{684C9153-5259-47B8-BDA9-D7A71F8C3636}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EdlinSoftware.Owin.Markdown.Service", "test\EdlinSoftware.Owin.Markdown.Service\EdlinSoftware.Owin.Markdown.Service.csproj", "{CA805CCD-7098-418A-A1F2-3D384A65D036}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EdlinSoftware.Owin.Markdown.Tests", "test\EdlinSoftware.Owin.Markdown.Tests\EdlinSoftware.Owin.Markdown.Tests.csproj", "{53EE1375-834F-4966-A275-5F8B54055C55}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{684C9153-5259-47B8-BDA9-D7A71F8C3636}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{684C9153-5259-47B8-BDA9-D7A71F8C3636}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{684C9153-5259-47B8-BDA9-D7A71F8C3636}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{684C9153-5259-47B8-BDA9-D7A71F8C3636}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA805CCD-7098-418A-A1F2-3D384A65D036}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA805CCD-7098-418A-A1F2-3D384A65D036}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA805CCD-7098-418A-A1F2-3D384A65D036}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA805CCD-7098-418A-A1F2-3D384A65D036}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53EE1375-834F-4966-A275-5F8B54055C55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53EE1375-834F-4966-A275-5F8B54055C55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53EE1375-834F-4966-A275-5F8B54055C55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53EE1375-834F-4966-A275-5F8B54055C55}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{684C9153-5259-47B8-BDA9-D7A71F8C3636} = {E6CC05D5-8319-4B7E-83E6-DE5A75DF291C}
+		{CA805CCD-7098-418A-A1F2-3D384A65D036} = {199EE41E-2C30-4632-B5BE-9339479F7689}
+		{53EE1375-834F-4966-A275-5F8B54055C55} = {199EE41E-2C30-4632-B5BE-9339479F7689}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {350C8001-9B40-44D5-A70B-BE5AEA9FD448}
+	EndGlobalSection
+EndGlobal
