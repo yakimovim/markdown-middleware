@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>$author$</authors>
+    <owners>$author$</owners>
+    <licenseUrl>https://raw.githubusercontent.com/yakimovim/markdown-middleware/master/LICENSEE</licenseUrl>
+    <projectUrl>https://github.com/yakimovim/markdown-middleware</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/yakimovim/markdown-middleware/master/code/EdlinSoftware.Owin.Markdown/books.ico</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>$description$</description>
+    <releaseNotes>Initial release of the package.</releaseNotes>
+    <copyright>Copyright 2018 EdlinSoftware</copyright>
+    <tags>OWIN Markdown</tags>
+  </metadata>
+</package>
