@@ -16,5 +16,8 @@
     "tags": [
       "OWIN", "Markdown"
     ]
+  },
+  "frameworks": {
+    "net462": {}
   }
 }
