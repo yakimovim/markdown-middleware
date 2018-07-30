@@ -1,3 +1,5 @@
+[![Build status](https://ci.appveyor.com/api/projects/status/18ht9mlcaak2elbb?svg=true)](https://ci.appveyor.com/project/IvanIakimov/markdown-middleware)
+
 # EdlinSoftware OWIN Markdown middleware
 
 This package contains OWIN middleware that allows providing content of Markdown files as HTML.
