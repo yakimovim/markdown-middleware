@@ -29,6 +29,18 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyName>EdlinSoftware.Owin.Markdown</AssemblyName>
+    <PackageId>EdlinSoftware.Owin.Markdown</PackageId>
+  </PropertyGroup>
+  <PropertyGroup>
+    <VersionPrefix>1.0.0</VersionPrefix>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Authors>Ivan Iakimov (edlinsoft@gmail.com)</Authors>
+    <Company>EdlinSoftware</Company>
+    <Copyright>Copyright © 2018 EdlinSoftware</Copyright>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="Markdig, Version=0.15.1.0, Culture=neutral, PublicKeyToken=870da25a133885f8, processorArchitecture=MSIL">
       <HintPath>..\..\packages\Markdig.Signed.0.15.1\lib\net40\Markdig.dll</HintPath>
