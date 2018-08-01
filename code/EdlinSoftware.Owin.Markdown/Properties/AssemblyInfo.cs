@@ -35,3 +35,4 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyVersion("1.0.0.0")]
 [assembly: AssemblyFileVersion("1.0.0.0")]
 [assembly: InternalsVisibleTo("EdlinSoftware.Owin.Markdown.Tests, PublicKey=002400000480000094000000060200000024000052534131000400000100010055ce3c5b042579da5d8d78d3b93d4cb59dc552a116b673086c61e5583660016875bf4b8c2ea6ae54833ddccfcdf86330559d087c43727895f3a5d3af90a2fd09df765fec2fbcc318385876476f3388f421fb2089e89072b73585723d1128cb6d9a9d546931f00bbe6cc51aea56559d2eebd9a70d57568c00db62635908a0bebe")]
+[assembly: AssemblyKeyFile(@"..\..\..\EdlinSoftware.snk")]
