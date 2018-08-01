@@ -46,11 +46,10 @@ namespace EdlinSoftware.Owin.Markdown.Service
             config.Routes.MapHttpRoute(
                 name: "DefaultApi",
                 routeTemplate: "api/{controller}/{id}",
-                defaults: new {id = RouteParameter.Optional}
+                defaults: new { id = RouteParameter.Optional }
             );
 
             app.UseWebApi(config);
-
         }
 
         private static JsonSerializerSettings GetJsonSerializerSettings()
